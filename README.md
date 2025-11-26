@@ -9,6 +9,8 @@ Automated Debian VM with Docker pre-installed.
 bash create-vm.sh
 bash start-vm.sh
 
+Select Advance -> Automated Installation -> https://autovm.kel3n.dev
+
 # 2. Wait ~15 min for installation
 
 # 3. Setup Docker via SSH
