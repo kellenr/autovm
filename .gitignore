@@ -1,0 +1,27 @@
+# ISO files (large, not needed in version control)
+*.iso
+
+# VirtualBox files
+*.vbox
+*.vbox-prev
+*.log
+
+# SSH keys
+.ssh/
+~/.ssh/
+
+# Temporary files
+*.tmp
+*.bak
+.DS_Store
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
