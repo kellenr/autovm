@@ -1,0 +1,11 @@
+{
+  "name": "autovm",
+  "compatibility_date": "2025-11-26",
+  "assets": {
+    "directory": "./assets"
+  },
+  "observability": {
+    "enabled": true,
+    "head_sampling_rate": 1
+  }
+}

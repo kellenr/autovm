@@ -79,7 +79,7 @@ fi
 # Create the VM
 echo ""
 echo "Creating VM: $VM_NAME"
-VBoxManage createvm --name "$VM_NAME" --ostype "Debian_64" --register
+VBoxManage createvm --name "$VM_NAME" --ostype "Debian_64" --register --basefolder="${BASE_FOLDER}"
 
 # Configure VM settings
 echo "Configuring VM settings..."
