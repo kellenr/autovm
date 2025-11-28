@@ -98,7 +98,7 @@ VBoxManage modifyvm "$VM_NAME" \
 echo "Configuring NAT port forwarding..."
 VBoxManage modifyvm "$VM_NAME" \
     --natpf1 "ssh,tcp,,2222,,22" \
-    --natpf1 "docker,tcp,,2375,,2375"
+    --natpf1 "ssh,tcp,,4443,,443" \
 
 # Create hard disk
 echo "Creating virtual hard disk..."

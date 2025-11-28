@@ -4,7 +4,7 @@
 VM_NAME="debian-xfce-docker"
 VM_MEMORY=4096  # 4GB RAM
 VM_CPUS=4
-VM_DISK_SIZE=5000  # 30GB
+VM_DISK_SIZE=30000  # 30GB
 VM_VRAM=128  # Video memory in MB
 VM_BASE_FOLDER="/home/${USER}/vms/${VM_NAME}"
 
